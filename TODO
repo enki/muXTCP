@@ -1,0 +1,8 @@
+Fix Protocol dependencies (packet template construction through reverse-tree-traversal)
+Fix packet construction. There needs to be some up-front info on the packet we want to build.
+E.g. ethernet/arp needs to know the IP.
+
+Clean up Twisted Integration
+
+Refactor Conduit/Protocol-Inheritance Tree
+
